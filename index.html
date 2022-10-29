@@ -3,8 +3,37 @@
     <link rel="stylesheet" href="./styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   </head>
+  
   <body>
-    <img class="background-picture" src="./assets/burger-friends.jpg" alt="broken">
+    <section class="top-bar" >What's for Dinner?
+      <button id="add-recipe-button">ADD A RECIPE</button>
+    </section>
+    <section class="homepage-boxes">
+      <div class="box1">
+        <form>
+          <h1>What are you looking for?<sup>*</sup></h1>
+          <input type="radio" id="sideOption" name="foodOption" value="Side">Side
+            <BR>
+            <BR>
+          <input type="radio" id="mainDishOption" name="foodOption" value="Main Dish">Main Dish
+            <BR>
+            <BR>
+          <input type="radio" id="dessertOption" name="foodOption" value="Dessert">Dessert
+            <BR>
+            <BR>
+          <input type="radio" id="entireMealOption" name="foodOption" value="Entire Meal">Entire Meal
+            <BR>
+            <BR>
+          <button id="letsCook" type="submit">LET'S COOK!</button>
+        </form>
+        </div>
+      <section class="box2">
+        <div class="prompt hidden">You should make:</div>
+        <img class="cookpot-img" src="./assets/cookpot.svg" alt="broken img">
+        <button type="button" class="clear hidden">Clear</button>
+        <div id="placeholder"></div>
+      </section>
+    </section>
   </body>
   <script type="text/javascript" src="main.js"></script>
 </html>
