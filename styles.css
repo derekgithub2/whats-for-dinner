@@ -60,7 +60,7 @@ sup {
     font-size: large;
     font-weight: bold;
     display: flex;
-    height: 45vh;
+    height: 40vh;
     width: 55vh;
     align-items: flex-start;
     padding: 25px;
@@ -68,22 +68,30 @@ sup {
     justify-content: center;
 }
 
-.box2 {
-    background-color:rgba(225, 225, 225, .9);
-    height: 45vh;
-    width: 55vh;
-    display: flex;
-    padding: 25px;
-    align-items: center;
-    justify-content: center;
-    font-style:italic;
-}
-
 form {
     font-size: large;
     font-weight: lighter;
 }
 
+.box2 {
+    background-color:rgba(225, 225, 225, .9);
+    height: 40vh;
+    width: 55vh;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+}
+
+.popup-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+}
 
 #letsCook {
     background-color: #0fb9b1;
@@ -96,19 +104,53 @@ form {
     padding: 10px 12px 10px;
 }
 
+.cookpotContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+}
+
 .cookpot-img {
     height: 20vh;
     width: 20vh;
-    align-content: center;
 }
 
-.clearButton {
-    color:white;
-    background-color: #95a5a6;
+.popup-text {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
 }
 
 .prompt {
-    font-style:italic;
+    font-style: italic;
+    display: flex;
+    align-content: baseline;
+    margin: 0px;
+    margin-top: 110px;
+}
+
+.suggestion-placeholder {
+    font-size: x-large;
+    font-style: bolder;
+    margin: 1px;
+    margin-bottom: 110px;
+}
+
+.clearContainer {
+    display: flex;
+    margin-left: 80%;
+}
+
+.clear {
+    color:white;
+    background-color: #95a5a6;
+    border: 1px;
+    border-radius: 5px;
+    padding: 7px 10px 7px;
+    border: 1px;
+    border-radius: 5px;
 }
 
 .hidden {
