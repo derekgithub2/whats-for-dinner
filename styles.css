@@ -136,6 +136,8 @@ form {
     font-style: bolder;
     margin: 1px;
     margin-bottom: 110px;
+    text-align: center;
+    justify-content: center;
 }
 
 .clearContainer {

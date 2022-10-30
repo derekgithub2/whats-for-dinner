@@ -12,7 +12,7 @@ var sides = ['Mashed Potatoes', 'French Fries', 'Chips and Salsa', 'Sweet Potato
 var mainDishes = ['Lobster Mac and Cheese', 'Teriyaki Chicken','Pepperoni Pizza', 'Bibimbap', 'Shashuka', 'Taiwanese Beef Noodle Soup', 'Spaghetti and Meatballs', 'Sushi', 'Corned Beef Hash']
 var desserts = ['Tiramisu', 'Apple Pie', 'Macaroons', 'Banana Bread','Strawberry Cheesecake', 'Pavlova', 'Croissants', 'Pumpkin Pie', 'Snickerdoodle Cookies']
 
-var entireMeal = `${mainDishes[Math.floor(Math.random()*mainDishes.length)]} with ${sides[Math.floor(Math.random()*sides.length)]} and ${desserts[Math.floor(Math.random()*desserts.length)]} for dessert!`
+var entireMeal = `${mainDishes[Math.floor(Math.random()*mainDishes.length)]} with ${sides[Math.floor(Math.random()*sides.length)]} and ${desserts[Math.floor(Math.random()*desserts.length)]}`
 
 // event listeners HERE
 letsCookButton.addEventListener('click', function(){
