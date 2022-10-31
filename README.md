@@ -13,6 +13,10 @@ This application allows users to randomly generate a side, main dish, dessert, o
 
 ### Preview of App:
 [//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
+https://www.loom.com/share/12441a1d833847828fb1b1c23da4ce16
+What's For Dinner Preview - Watch Video
+
+
 <a href="https://www.loom.com/share/12441a1d833847828fb1b1c23da4ce16">
     <p>What's For Dinner Preview - Watch Video</p>
     <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/12441a1d833847828fb1b1c23da4ce16-with-play.gif">
